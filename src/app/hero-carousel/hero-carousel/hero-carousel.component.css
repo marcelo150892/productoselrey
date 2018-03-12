@@ -124,7 +124,11 @@ background-color:#F5D328;
 
 @media screen and (max-width:991px) {
 #lab_video_text_wrap {
-  height: 300px;
+  display: none;
+}
+
+.slider-video{
+  display: none;
 }
 }
 
