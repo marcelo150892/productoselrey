@@ -1,0 +1,135 @@
+/*footer*/
+.footer {
+  background: #2b2a2a none repeat scroll 0 0;
+  margin: 0;
+  padding: 46px 0;
+}
+
+.footer_dv h4 {
+  color: #fff;
+  font-weight: bold;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.footer_dv ul {
+  list-style: outside none none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.footer_dv ul li:first-child {
+  border-top: medium none;
+  box-shadow: none;
+}
+.footer_dv ul li {
+  color: #fff;
+  padding: 5px 0;
+}
+.footer_dv p {
+  color: #fff;
+  font-size: 14px;
+  line-height: 20px;
+  margin: 0 0 15px;
+  text-align: justify;
+}
+.a-font {
+  color: #fff!important;
+  text-decoration: none!important;
+}
+
+.img-responsive{
+width: 100%;
+}
+
+footer.site-footer ul {
+  padding-left: 0;
+  margin-bottom: 20px;
+  list-style: none;
+}
+
+.fa-facebook{
+  color:#3b5998;
+}
+.fa-linkedin{
+  color:#0077B5;
+}
+.fa-twitter{
+  color:#4099FF;
+}
+.fa-google{
+  color:#d34836;
+}
+.bg-primary {
+background-color: #000 !important;
+}
+
+.bg-circle
+{
+display: inline-block;
+width: 60px;
+height: 60px;
+padding: 14px 4px;
+color: #ececec;
+text-align: center;
+border-radius: 50%;
+}
+
+.bg-circle-outline
+{
+width: 50px;
+height: 50px;
+color:smoke;
+padding: 8px 2px;
+border: 2px solid;
+border-color: smoke;
+border-radius: 50%;
+}
+
+
+.bg-circle a, a:hover, .media a:focus
+{
+text-decoration: none !important;
+outline: none;
+color: #ececec;
+}
+.bg-circle-outline a, a:hover, .media a:focus
+{
+text-decoration: none !important;
+outline: none;
+color: #ececec;
+}
+
+@media (min-width: 768px){
+  .navbar-right {
+      float: right!important;
+      margin-right: -15px;
+  }
+}
+.list-inline>li {
+  display: inline-block;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+.list-inline {
+  padding-left: 0;
+  margin-left: -5px;
+  list-style: none;
+}
+.py-5 {
+  padding-top: 3rem!important;
+  padding-bottom: 3rem!important;
+}
+.bg-dark {
+  background-color: #222!important;
+}
+@media screen and (max-width:650px){
+  h4{
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  ul {
+    text-align: center;
+  }
+}

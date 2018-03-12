@@ -1,0 +1,23 @@
+.bg-inverse{
+  background-color: none;
+}
+
+.a{
+  color: white;
+}
+
+img{
+  height: 10%;
+  width: 10%;
+}
+@media screen and (max-width:650px){
+  .bg-inverse{
+    background-color: transparent;
+  }
+  img{
+    height: 10%;
+    width: 30%;
+  }
+}
+
+

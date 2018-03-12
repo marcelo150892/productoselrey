@@ -1,0 +1,73 @@
+<div class="text-center"  *ngIf="!isAuth()">
+  <app-hero-carousel></app-hero-carousel>
+  <app-submenu></app-submenu>
+</div>
+<div class="container"  *ngIf="isAuth()">
+    <div class="jumbotron">
+      <h1>Escoge la opción que deseas revisar </h1>
+      <p>Se muestran 3 opciones cada una se puede agregar algún proveedor, presupuesto o facturas.</p>
+    </div>
+    <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <a routerLink="/facturas">
+          <div class="card">
+              <img class="card-img-top" src="../../assets/proveedores.jpg">
+              <div class="card-block">
+                  <figure class="profile">
+                      <img src="http://success-at-work.com/wp-content/uploads/2015/04/free-stock-photos.gif" class="profile-avatar" alt="">
+                  </figure>
+                  <h4 class="card-title mt-3">Facturas</h4>
+                  <div class="meta">
+                      <a>Friends</a>
+                  </div>
+                  <div class="card-text">
+                      Tawshif is a web designer living in Bangladesh.
+                  </div>
+              </div>
+          </div>
+        </a>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <a routerLink="/proveedores">
+          <div class="card">
+              <img class="card-img-top" src="../../assets/proveedores.jpg">
+              <div class="card-block">
+                  <figure class="profile">
+                      <img src="http://success-at-work.com/wp-content/uploads/2015/04/free-stock-photos.gif" class="profile-avatar" alt="">
+                  </figure>
+                  <h4 class="card-title mt-3">Proveedores</h4>
+                  <div class="meta">
+                      <a>Friends</a>
+                  </div>
+                  <div class="card-text">
+                      Tawshif is a web designer living in Bangladesh.
+                  </div>
+              </div>
+          </div>
+        </a>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <a routerLink="/presupuestos">
+          <div class="card">
+              <img class="card-img-top" src="../../assets/proveedores.jpg">
+              <div class="card-block">
+                  <figure class="profile">
+                      <img src="http://success-at-work.com/wp-content/uploads/2015/04/free-stock-photos.gif" class="profile-avatar" alt="">
+                  </figure>
+                  <h4 class="card-title mt-3">Presupuesto</h4>
+                  <div class="meta">
+                      <a>Friends</a>
+                  </div>
+                  <div class="card-text">
+                      Tawshif is a web designer living in Bangladesh.
+                  </div>
+              </div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+

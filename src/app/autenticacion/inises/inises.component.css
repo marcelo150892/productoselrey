@@ -1,0 +1,13 @@
+.sesion{
+  margin-top: 100px;
+}
+@media screen and (max-width:650px){
+  .sesion{
+    margin-top: 50px;
+    margin-left: 20px;
+  }
+  .img{
+    height: 5px;
+    width: 5px;
+  }
+}

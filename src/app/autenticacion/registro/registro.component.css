@@ -1,0 +1,9 @@
+.registro{
+  margin-top: 100px;
+}
+@media screen and (max-width:650px){
+  .registro{
+    margin-top: 50px;
+    margin-left: 20px;
+  }
+}
