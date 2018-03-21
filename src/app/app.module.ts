@@ -51,6 +51,7 @@ const routes: Routes = [
   {path: 'inises', component: InisesComponent},
   { path: 'facturas', component: FacturasComponent },
   { path: 'nosotros', component: NosotrosComponent },
+  { path: 'productos', component: CarouselComponent},
   {path: '**', component: InicioComponent}
 ];
 

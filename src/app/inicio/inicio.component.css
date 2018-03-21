@@ -36,6 +36,8 @@
   display: block;
   width: 100%;
   height: auto;
+  background-color: rgba(0,0,0,0.8);
+  filter: brightness(0.4);
 }
 
 .card-title {
