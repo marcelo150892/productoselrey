@@ -58,13 +58,13 @@ body {
   /* Bump up size of carousel content */
   .carousel-caption {
     left: 10%;
-    bottom: 3rem;
+    bottom: 8rem;
     z-index: 10;
   }
 
   /* Declare heights because of positioning of img element */
   .carousel-item {
-    height: 32rem;
+    height: 37rem;
     background-color: #777;
   }
   .carousel-item > img {
@@ -72,7 +72,7 @@ body {
     top: 0;
     left: 0;
     min-width: 100%;
-    height: 32rem;
+    height: 37rem;
     background-color: rgba(0,0,0,0.8);
     filter:brightness(0.4);
   }
